@@ -37,8 +37,8 @@ public class CustomMetadataLoaderControllerTest {
         System.assert(cntlr.metadataConnectionWarning);
     }
     
-    static CustomMetadataLoaderController setup() {
-        Test.setMock(WebServiceMock.class, new MDWrapperWebServiceMock());
-        return new CustomMetadataLoaderController();
-    }
+//     static CustomMetadataLoaderController setup() {
+//         Test.setMock(WebServiceMock.class, new MDWrapperWebServiceMock());
+//         return new CustomMetadataLoaderController();
+//     }
 }
